@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+ img {
+    border-radius: 45%;
+    color: white;
+	 border: 3px solid #E7A5D6;
+}
+
+.header {
+  background-color: #ECB3E1;
+  height: 150px;
+  line-height: 150px;
+  padding: 20px;
+}
+.header a {
+  color: #4E434E;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+a:hover {
+    color: #C5E5BA;
+}
+.header a:hover {
+    color: #C5E5BA;
+}
+#header-nav {
+  display: block;
+  float: right;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+  margin-top: 0;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;}
+#footer {
+  background-color: #92808D;
+  padding: 50px;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#footer a {
+	color: antiquewhite;
+	padding: 5px;
+}
+#footer p {
+  color: white;
+}
+
+.column {
+  min-width: 300px;
+	text-align: left;
+  display: inline-block;
+  vertical-align: top;
+	
+}
+.about {
+  text-align: center;
+}
+body {
+	text-align: center;
+	margin: auto;
+	background-color: #E9E7E7
+}
+.content{
+	margin: 100px;
+}
+figure{
+	margin: 50px;
+}
+h2{
+	text-align: left;
+	text-transform: capitalize;
+}
+#footer{
+	text-align: left;
+	padding-left: 200px;
+}
